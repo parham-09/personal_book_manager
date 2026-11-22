@@ -24,6 +24,6 @@ for i in range(count_books):
     }
     
     books.append(book)
-    print("Book added successfully")
+    print("Book added successfully ", book["name"])
 show_books(books)
 save_books(books)
